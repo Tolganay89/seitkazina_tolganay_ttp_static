@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        My name is Tolganay Seitkazina
+    </h1>
+    <h1>
+        My favorite hobby is to play volleyball. 
+    </h1>
+    <h3>The current time is : <span id="timeSpan"> </span></h3>
+    <script>
+    
+    function getTime () {
+        //time obj
+        let time = new Date();
+
+       // convert the time to the local time 
+        let timeStr = time.toLocaleTimeString();
+        
+        // put the time in the span tag
+        document.getElementById('timeSpan').innerHTML =  timeStr;
+    }
+    // call the gettime in every second and make it like watch (update in every sec)
+    setInterval (getTime,1000);
+
+    </script>
+   
+</body>
+</html>
