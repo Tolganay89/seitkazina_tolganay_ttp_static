@@ -1,5 +1,18 @@
 body {
     font-family: 'PT Sans Narrow', sans-serif;
-    background-color: #ededed;
-    
+    background-color: #ecdcdc;
+    opacity: 0.8;
+}
+
+.container {
+    width: 40%;
+    margin: auto;
+    margin-top: 30vh;
+    background-color: #f3eaea;
+    opacity: 0.9;
+}
+
+h1,
+h2 {
+    text-align: center;
 }
